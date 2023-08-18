@@ -1,7 +1,7 @@
 :root {
     --primaryColor: #fff;
-    --secondaryColor: #a4aca1;
-    --tertiaryColor: #828b7e;
+    --secondaryColor: #b0b9ad;
+    --tertiaryColor: #6d756a;
     --bodyColor: #dddddd;
     --additionalColor: ;
 
@@ -514,6 +514,7 @@ footer {
     font-size: 1.8rem;
     color: var(--txtPrimary);
     padding-top: 1.3rem;
+    margin-right: 12.5rem;
 }
 
 .footerContainer1 {

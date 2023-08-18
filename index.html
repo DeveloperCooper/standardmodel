@@ -23,13 +23,13 @@
 </head>
 
 <body>
-    <header role="header" id="home">
+    <header role="navigation" id="home">
         <nav class="navbar">
             <div class="navbarHeader">
                 <a aria-label="Link Home" href="#home">
                     <img class="Logo" src="./assets/images/SuaLogo.png" alt="Logotipo">
                 </a>
-                <button name="Botão Navbar" type="button" class="navbarButton">
+                <button role="button" aria-labelledby="Botão Navbar" name="Botão Navbar" type="button" class="navbarButton">
                     <i class="fa-solid fa-bars"></i>
                 </button> <!--navbarButton-->
             </div> <!--navbarHeader-->
@@ -37,16 +37,16 @@
 
             <ul class="navbarList">
                 <li>
-                    <a aria-label="Link da Navbar" class="navbarListLink" href="#home">Home</a>
+                    <a aria-label="Link Navbar" class="navbarListLink" href="#home">Home</a>
                 </li>
                 <li>
                     <a aria-label="Link da Navbar" class="navbarListLink" href="#about">Sobre mim</a>
                 </li>
                 <li>
-                    <a aria-label="Link da Navbar" class="navbarListLink" href="#services">Serviços</a>
+                    <a aria-label="Link da Nav" class="navbarListLink" href="#services">Serviços</a>
                 </li>
                 <li>
-                    <a aria-label="Link da Navbar" class="navbarListLink" href="#depositions">Depoimentos</a>
+                    <a aria-label="Link Nav" class="navbarListLink" href="#depositions">Depoimentos</a>
                 </li>
             </ul> <!--navbar-list-->
 
@@ -71,7 +71,7 @@
 
     </header> <!--home-->
 
-    <section role="content" id="content">
+    <section role="banner" id="content">
         <div class="wallpapertexts">
             <h2>O site Ideal para o seu Negócio!</h2>
             <p>Bem-vindo ao nosso site, onde a economia encontra a beleza em perfeita harmonia! Aqui, você pode
@@ -88,7 +88,7 @@
         </svg>
     </section> <!--content-->
 
-    <section role="about" id="about">
+    <section role="contentinfo" id="about">
         <div class="aboutContainer1">
             <img class="aboutImage" src="./assets/images/retrato.webp" alt="Desc foto">
         </div> <!--aboutContainer1-->
@@ -110,7 +110,7 @@
 
     <br>
 
-    <section role="services" id="services">
+    <section role="complementary" id="services">
         <h2 class="Title">Divulgue seus serviços!</h2>
         <div class="Line"></div>
 
@@ -150,7 +150,7 @@
         </div> <!--allCards-->
     </section> <!--services-->
 
-    <section role="depositions" id="depositions">
+    <section role="contentinfo" id="depositions">
         <h2 class="Title">Gere credibilidade!</h2>
         <div class="Line"></div>
 
@@ -194,7 +194,7 @@
         </div> <!--depositionsCard-->
     </section> <!--depositions-->
 
-    <footer role="footer">
+    <footer role="section">
         <div class="footerBackground">
             <p>Ficou alguma dúvida? Entre em contato!</p>
         </div> <!--footerBackground-->
@@ -213,13 +213,13 @@
                                 <a aria-label="Link do Footer" class="footerListLink" href="#home">Home</a>
                             </li>
                             <li>
-                                <a aria-label="Link do Footer" class="footerListLink" href="#about">Sobre mim</a>
+                                <a aria-label="Link Footer" class="footerListLink" href="#about">Sobre mim</a>
                             </li>
                             <li>
-                                <a aria-label="Link do Footer" class="footerListLink" href="#services">Serviços</a>
+                                <a aria-label="Link do Foot" class="footerListLink" href="#services">Serviços</a>
                             </li>
                             <li>
-                                <a aria-label="Link do Footer" class="footerListLink" href="#depositions">Depoimentos</a>
+                                <a aria-label="Link Foot" class="footerListLink" href="#depositions">Depoimentos</a>
                             </li>
                         </ul>
                     </div> <!--footer-list-->
