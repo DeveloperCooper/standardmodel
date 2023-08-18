@@ -18,18 +18,18 @@
     <link <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,600;9..40,800;9..40,900&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <header id="home">
+    <header role="header" id="home">
         <nav class="navbar">
             <div class="navbarHeader">
-                <a href="">
+                <a aria-label="Link Home" href="#home">
                     <img class="Logo" src="./assets/images/SuaLogo.png" alt="Logotipo">
                 </a>
-                <button type="button" class="navbarButton">
+                <button name="Botão Navbar" type="button" class="navbarButton">
                     <i class="fa-solid fa-bars"></i>
                 </button> <!--navbarButton-->
             </div> <!--navbarHeader-->
@@ -37,48 +37,48 @@
 
             <ul class="navbarList">
                 <li>
-                    <a class="navbarListLink" href="#home">Home</a>
+                    <a aria-label="Link da Navbar" class="navbarListLink" href="#home">Home</a>
                 </li>
                 <li>
-                    <a class="navbarListLink" href="#about">Sobre mim</a>
+                    <a aria-label="Link da Navbar" class="navbarListLink" href="#about">Sobre mim</a>
                 </li>
                 <li>
-                    <a class="navbarListLink" href="#services">Serviços</a>
+                    <a aria-label="Link da Navbar" class="navbarListLink" href="#services">Serviços</a>
                 </li>
                 <li>
-                    <a class="navbarListLink" href="#depositions">Depoimentos</a>
+                    <a aria-label="Link da Navbar" class="navbarListLink" href="#depositions">Depoimentos</a>
                 </li>
             </ul> <!--navbar-list-->
 
             <div class="navbarSocialMedias">
-                <a href="#">
+                <a aria-label="Ícone do Whatsapp" href="#">
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
-                <a href="#">
+                <a aria-label="Ícone do Instagram" href="#">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="#">
+                <a aria-label="Ícone do Linkedin" href="#">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </div> <!--navbarSocialMedias-->
         </nav> <!--navbar-->
 
         <div class="whatsappButton">
-            <a href="#" class="whatsappIcon" target="_blank">
+            <a aria-label="Ícone do Whatsapp" href="#" class="whatsappIcon" target="_blank">
                 <i class="fab fa-whatsapp"></i>
             </a>
         </div> <!--whatsappButton-->
 
     </header> <!--home-->
 
-    <section id="content">
+    <section role="content" id="content">
         <div class="wallpapertexts">
             <h2>O site Ideal para o seu Negócio!</h2>
             <p>Bem-vindo ao nosso site, onde a economia encontra a beleza em perfeita harmonia! Aqui, você pode
                 ter uma presença online marcante e cativante! Nosso compromisso é
                 fornecer a você um site que seja não apenas atraente aos olhos, mas também gentil ao seu orçamento.</p>
             <br>
-            <button type="button"  class="contentButton">Quero conhecer</button>
+            <button name="Quero conhecer" type="button"  class="contentButton">Quero conhecer</button>
         </div> <!--wallpapertexts-->
 
         <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -88,7 +88,7 @@
         </svg>
     </section> <!--content-->
 
-    <section id="about">
+    <section role="about" id="about">
         <div class="aboutContainer1">
             <img class="aboutImage" src="./assets/images/retrato.webp" alt="Desc foto">
         </div> <!--aboutContainer1-->
@@ -110,7 +110,7 @@
 
     <br>
 
-    <section id="services">
+    <section role="services" id="services">
         <h2 class="Title">Divulgue seus serviços!</h2>
         <div class="Line"></div>
 
@@ -150,7 +150,7 @@
         </div> <!--allCards-->
     </section> <!--services-->
 
-    <section id="depositions">
+    <section role="depositions" id="depositions">
         <h2 class="Title">Gere credibilidade!</h2>
         <div class="Line"></div>
 
@@ -194,13 +194,13 @@
         </div> <!--depositionsCard-->
     </section> <!--depositions-->
 
-    <footer>
+    <footer role="footer">
         <div class="footerBackground">
             <p>Ficou alguma dúvida? Entre em contato!</p>
         </div> <!--footerBackground-->
             <div class="contain">
                 <div class="footerContainer1">
-                    <a href="#">
+                    <a aria-label="Logotipo" href="#">
                         <img class="Logo" src="./assets/images/SuaLogo.png" alt="Logotipo">
                     </a>
                 </div> <!--footerContainer1-->
@@ -208,18 +208,20 @@
                 <div class="footerContainer2">
                     <h2 class="subTitle">Navegação</h2>
                     <div class="footerList">
-                        <li>
-                            <a class="footerListLink" href="#home">Home</a>
-                        </li>
-                        <li>
-                            <a class="footerListLink" href="#about">Sobre mim</a>
-                        </li>
-                        <li>
-                            <a class="footerListLink" href="#services">Serviços</a>
-                        </li>
-                        <li>
-                            <a class="footerListLink" href="#depositions">Depoimentos</a>
-                        </li>
+                        <ul>
+                            <li>
+                                <a aria-label="Link do Footer" class="footerListLink" href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a aria-label="Link do Footer" class="footerListLink" href="#about">Sobre mim</a>
+                            </li>
+                            <li>
+                                <a aria-label="Link do Footer" class="footerListLink" href="#services">Serviços</a>
+                            </li>
+                            <li>
+                                <a aria-label="Link do Footer" class="footerListLink" href="#depositions">Depoimentos</a>
+                            </li>
+                        </ul>
                     </div> <!--footer-list-->
                 </div> <!--footerContainer2-->
         
@@ -233,6 +235,11 @@
                         <h3>Site desenvolvido por</h3>
                         <img src="./assets/images/Nexxus.webp" alt="Nexxus Agência Digital">
                     </div> <!--nexxus-->
+
+                    <div class="Direitos">
+                        <span class="direitos">Todos os direitos reservados.</span>
+                        <span class="copyright">&copy; <span class="date"></span> </span> por Seu Nome
+                    </div> <!--footerBox4-->
                 </div> <!--footerContainer3-->
             </div> <!--contain-->
     </footer>

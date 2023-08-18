@@ -1,6 +1,6 @@
 :root {
     --primaryColor: #fff;
-    --secondaryColor: #b7c0b3;
+    --secondaryColor: #a4aca1;
     --tertiaryColor: #828b7e;
     --bodyColor: #dddddd;
     --additionalColor: ;
@@ -534,10 +534,24 @@ footer {
     flex-direction: column;
 }
 
+.footerList ul {
+    margin-right: 4.5rem;
+}
+
+.footerList li {
+    min-height: 35px;
+}
+
 .footerList li a {
     color: var(--secondaryColor);
     font-size: 1.9rem;
     line-height: 2.7rem;
+}
+
+.Direitos {
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 1.4rem;
 }
 
 .footerListLink {
