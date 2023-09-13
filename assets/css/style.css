@@ -514,7 +514,6 @@ footer {
     font-size: 1.8rem;
     color: var(--txtPrimary);
     padding-top: 1.3rem;
-    margin-right: 12.5rem;
 }
 
 .footerContainer1 {
@@ -530,13 +529,13 @@ footer {
     color: var(--secondaryColor);
 }
 
+.footerList ul {
+    padding: 0;
+}
+
 .footerList {
     display: flex;
     flex-direction: column;
-}
-
-.footerList ul {
-    margin-right: 4.5rem;
 }
 
 .footerList li {
@@ -603,5 +602,13 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .footerBackground p {
+        margin-right: 7.5rem;
+    }
+
+    .footerContainer2 {
+        margin-left: 3rem;
     }
 }
